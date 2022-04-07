@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack ToDo Assignment</title>
+    <!-- <link rel="stylesheet" href="./src/index.css"> -->
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="title">
+        <span class="icon"></span>
+        To do List Assignment 
+      </h1>
+    </div>
+    <div class="form">
+      <fieldset>
+        <legend>Insert Data</legend>
+        <form>
+          <input
+            type="text"
+            placeholder="Add a task..."
+            class="input itemName"
+          />
+          <input
+            type="datetime-local"
+            placeholder="Set Due Date..."
+            class="input itemQty"
+          />
+          <input type="submit" value="Add to the TaskList" class="submitBtn" />
+          <br />
+          <!-- <span>Data Added SuccessFully!</span> -->
+        </form>
+
+        <table>
+          <thead>
+            <tr>
+              <th>S.No.</th>
+              <th>Task List</th>
+              <th>Due Date & Time</th>
+              <th>Delete Task</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </fieldset>
+    </div>
+  </body>
+</html>
+
+<script src="./build/bundle.js"></script>
