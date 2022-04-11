@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  border: 1px solid red;
+  width: 800px;
+  /* height: 100vh; */
+  background-color: bisque;
+  margin: auto;
+  padding: 50px;
+}
+h3{
+  display: inline;
+}
+
+.container{
+  display: flex;
+  margin: 40px 0 0 0;
+}
+.container > div{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+}
+
+button{
+  margin: 5px 10px;
+}
